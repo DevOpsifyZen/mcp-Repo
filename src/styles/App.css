@@ -1,0 +1,19 @@
+/**
+ * App Component Styles
+ */
+
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: var(--spacing-md);
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .app-container {
+    padding: var(--spacing-sm);
+    align-items: stretch;
+  }
+}
